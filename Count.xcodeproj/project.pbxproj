@@ -17,6 +17,7 @@
 		420095F02824B6E500AB7E8A /* CountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420095EF2824B6E500AB7E8A /* CountUITests.swift */; };
 		420095F22824B6E600AB7E8A /* CountUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420095F12824B6E600AB7E8A /* CountUITestsLaunchTests.swift */; };
 		420095FF2824B95700AB7E8A /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 420095FE2824B95600AB7E8A /* pink.png */; };
+		42B924AC282BED160012DF08 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B924AB282BED160012DF08 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		420095EF2824B6E500AB7E8A /* CountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUITests.swift; sourceTree = "<group>"; };
 		420095F12824B6E600AB7E8A /* CountUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		420095FE2824B95600AB7E8A /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pink.png; sourceTree = SOURCE_ROOT; };
+		42B924AB282BED160012DF08 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				420095FE2824B95600AB7E8A /* pink.png */,
+				42B924AB282BED160012DF08 /* icon.png */,
 				420095CE2824B6DF00AB7E8A /* AppDelegate.swift */,
 				420095D02824B6DF00AB7E8A /* SceneDelegate.swift */,
 				420095D22824B6DF00AB7E8A /* ViewController.swift */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				420095DB2824B6E400AB7E8A /* LaunchScreen.storyboard in Resources */,
+				42B924AC282BED160012DF08 /* icon.png in Resources */,
 				420095FF2824B95700AB7E8A /* pink.png in Resources */,
 				420095D82824B6E400AB7E8A /* Assets.xcassets in Resources */,
 				420095D62824B6DF00AB7E8A /* Main.storyboard in Resources */,
@@ -443,6 +447,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BDTYV64CW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Count/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -455,7 +460,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.aimi.Count;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ishikawa.toto.Count;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -470,6 +475,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BDTYV64CW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Count/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -482,7 +488,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.aimi.Count;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ishikawa.toto.Count;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
